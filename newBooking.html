@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Droame Booking Portal</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<h1>Droame Booking Portal</h1>
+		<nav>
+			<ul>
+				<li><a href="/index.html" target="">Home</a></li>
+				<li><a href="/customer.html">Customers</a></li>
+				<li><a href="/booking.html">Bookings</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container form-container">
+			<form action="#" method="post" class="form">
+				<h2>Add New Customer</h2>
+				<hr>
+				<label for="fname">First Name:</label> <br>
+				<input type="text" id="lname" name="fname" required> <br> <br>
+
+				<label for="lname">Last Name:</label> <br>
+				<input type="text" id="lname" name="lname" required> <br>
+
+				<div class="gender">
+					<p>Please Select Your Gender</p>
+					<select name="gender">
+						<option value="">Please select one…</option>
+						<option value="female">Female</option>
+						<option value="male">Male</option>
+						<option value="other">Other</option>
+					  </select>
+				</div>
+
+				<br><br>
+				<label for="email">Email Id :</label><br>
+				<input type="email" id="email" name="email" required> <br> <br>
+
+				<label for="phone">Phone No:</label><br>
+				<input type="tel" id="phone" name="phone" required>
+
+				<hr>
+				<h2>Booking Details</h2>
+				<hr>
+
+				<label for="location">Location Name:</label><br>
+				<input type="text" id="location" name="location" required> <br> <br>
+
+				<label for="dronShotname">Dron Shot Name</label><br>
+				<input type="text" id="dron" name="email" required> <br> <br>
+
+				<label for="date">Dron Shot Date</label><br>
+				<input type="date" id="phone" name="phone" required> <br><br>
+
+				<input type="submit" value="Add Customer" class="btn">
+			</form>
+		</div>
+	</main>
+	<footer class="footer">
+		<p>&copy; 2023 Droame Technologies Copyright Reserved</p>
+	</footer>
+</body>
+
+</html>
